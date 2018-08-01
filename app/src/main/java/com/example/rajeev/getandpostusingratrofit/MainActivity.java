@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
                 .build();
 
         final Service service = retrofit.create(Service.class);
-        retrofit2.Call<Result> call = service.addPerson(bldgr,adress,city,contactno,name,time,donar);
+        retrofit2.Call<Result> call = service.addPerson(bldgr, adress, city, contactno, name, time, donar);
         call.enqueue(new Callback<Result>() {
             @Override
             public void onResponse(retrofit2.Call<Result> call, retrofit2.Response<Result> response) {

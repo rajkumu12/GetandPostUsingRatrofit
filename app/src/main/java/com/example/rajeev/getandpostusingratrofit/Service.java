@@ -3,6 +3,7 @@ package com.example.rajeev.getandpostusingratrofit;
 import retrofit2.Call;
 import retrofit2.http.Field;
 import retrofit2.http.FormUrlEncoded;
+import retrofit2.http.GET;
 import retrofit2.http.POST;
 
 /**
@@ -10,6 +11,9 @@ import retrofit2.http.POST;
  */
 
 public interface Service {
+    String BASE1_URL = "http://ramgopalabs.000webhostapp.com/";
+    @GET("v1/EmergencyRequirement.php/?op=getPatient")
+    Call<Patientlist> getstatus();
     @FormUrlEncoded
     @POST("v1/EmergencyRequirement.php/?op=addPatient")
     Call<Result> addPerson(@Field("BloodGroup") String bloodgroup,

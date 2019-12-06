@@ -1,3 +1,2 @@
 # GetandPostUsingRatrofit
-![Alt text](/relative/C:\Users\Neetika Sharma\Pictures/to/google.jpg?raw=true "Optional Title")
-![Alt text](https://i.ytimg.com/vi/4JGvDUlfk7Y/maxresdefault.jpg "Optional title")
+![Alt text](https://raw.githubusercontent.com/rajkumu12/FacebbokLoginandSharing/master/app/src/main/res/drawable/shh.png "Optional title")
